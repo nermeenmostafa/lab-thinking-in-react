@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.out-of-stock {
+
+  color: rgb(255, 191, 0);
+
+}
+
+
+
+
+.in-stock {
+
+  color: rgb(87, 0, 128);
+
+}
