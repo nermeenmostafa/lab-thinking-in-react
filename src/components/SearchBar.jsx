@@ -1,20 +1,17 @@
 import { useState } from "react";
 
-
-
-
 function SearchBar(props) {
-
-
-
-
   const {search, onSearch} = props
+
+function handleSubmit(e){
+  event.preventDefaul()
+}
 
   return (
 
     <div>
 
-      <form>
+      <form onSubmit={handleSubmit}>
 
         <input
 
